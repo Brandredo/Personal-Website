@@ -1,0 +1,40 @@
+.item2 {
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+  margin: 1.25rem;
+  font-weight: 500;
+  color: white;
+}
+
+.item1 {
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+  margin: 1.25rem;
+  font-weight: 500;
+  color: #212f45;
+}
+
+.item1:hover,
+.item2:hover {
+  color: #facc15;
+}
+
+.navlist1 {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #212f45;
+  color: white;
+}
+
+.navlist2 {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: #212f45;
+}

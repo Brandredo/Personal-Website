@@ -1,0 +1,38 @@
+.footer {
+  background-color: rgb(34, 32, 32);
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.footerlist {
+}
+
+.item {
+  color: white;
+}
+
+.footerlist > li {
+  display: inline-block;
+  margin: 2rem;
+}
+
+.border {
+  height: 1rem;
+  margin: auto;
+  width: 25%;
+  border-bottom: 1px solid white;
+}
+
+.footertext {
+  color: white;
+  display: flex;
+}
+
+.endlayout {
+  display: flex;
+  justify-content: center;
+}
