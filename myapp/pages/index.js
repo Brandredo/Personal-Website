@@ -1,13 +1,11 @@
 import styles from "../components/css/Main.module.css";
-import Head from 'next/head';
-import Image from 'next/image';
+import Image from "next/image";
 
 function Home() {
 
   return (
 
     <>
-
       <section className={styles.welcome}>
 
         <div className={styles.welcomecontainer}>
@@ -37,7 +35,7 @@ function Home() {
             </p>
           </div>
 
-          <img className={styles.portrait} src="/IMG_0239.JPG" alt="photo of brandon figueredo" />
+          <Image className={styles.portrait} src="/IMG_0239.JPG" alt="photo of brandon figueredo" />
         </div>
 
       </section>
@@ -54,7 +52,8 @@ function Home() {
 
         <div className={styles.sec1}>
           <div className={styles.demo1}>
-            <img className="border-4 shadow-lg border-gray" src="/Animation2.gif" alt="Gif of UFit website" />
+
+            <Image className="border-4 shadow-lg border-gray" src="/Animation2.gif" alt="Gif of UFit website" />
             <div className={styles.newlabel}></div>
           </div>
           <div className={styles.desc1con}>
@@ -65,7 +64,7 @@ function Home() {
 
         <div className={styles.sec2}>
           <div className={styles.demo2}>
-            <img className="border-4 shadow-lg border-gray" src="/Animation3.gif" alt="Gif of UFit website" />
+            <Image className="border-4 shadow-lg border-gray" src="/Animation3.gif" alt="Gif of UFit website" />
             <div className={styles.newlabel}></div>
           </div>
           <div className={styles.desc2con}>
@@ -76,7 +75,7 @@ function Home() {
 
         <div className={styles.sec3}>
           <div className={styles.demo3}>
-            <img className="border-4 shadow-lg border-gray" src="/Animation.gif" alt="Gif of Little Inspirations website" />
+            <Image className="border-4 shadow-lg border-gray" src="/Animation.gif" alt="Gif of Little Inspirations website" />
             <div className={styles.newlabel}></div>
           </div>
           <div className={styles.desc3con}>
@@ -85,8 +84,6 @@ function Home() {
           </div>
         </div>
       </section>
-
-      {/* put something else cool here */}
     </>
 
   );
