@@ -35,7 +35,7 @@ function Home() {
             </p>
           </div>
 
-          <Image className={styles.portrait} src="/IMG_0239.JPG" alt="photo of brandon figueredo" />
+          <img className={styles.portrait} src="/IMG_0239.JPG" alt="photo of brandon figueredo" />
         </div>
 
       </section>
@@ -53,7 +53,7 @@ function Home() {
         <div className={styles.sec1}>
           <div className={styles.demo1}>
 
-            <Image className="border-4 shadow-lg border-gray" src="/Animation2.gif" alt="Gif of UFit website" />
+            <img className="border-4 shadow-lg border-gray" src="/Animation2.gif" alt="Gif of UFit website" />
             <div className={styles.newlabel}></div>
           </div>
           <div className={styles.desc1con}>
@@ -64,7 +64,7 @@ function Home() {
 
         <div className={styles.sec2}>
           <div className={styles.demo2}>
-            <Image className="border-4 shadow-lg border-gray" src="/Animation3.gif" alt="Gif of UFit website" />
+            <img className="border-4 shadow-lg border-gray" src="/Animation3.gif" alt="Gif of UFit website" />
             <div className={styles.newlabel}></div>
           </div>
           <div className={styles.desc2con}>
@@ -75,7 +75,7 @@ function Home() {
 
         <div className={styles.sec3}>
           <div className={styles.demo3}>
-            <Image className="border-4 shadow-lg border-gray" src="/Animation.gif" alt="Gif of Little Inspirations website" />
+            <img className="border-4 shadow-lg border-gray" src="/Animation.gif" alt="Gif of Little Inspirations website" />
             <div className={styles.newlabel}></div>
           </div>
           <div className={styles.desc3con}>
