@@ -25,10 +25,10 @@ function Home() {
         <div className={styles.descontainer}>
           <div className={styles.textcontainer}>
             <p className={styles.textinfo}>
-              Hello, my name is Brandon Figueredo. I'm from Massachusets, USA. I'm a student at the University of Massachusetts Amherst where I'm studying Computer Science.
+              Hello, my name is Brandon Figueredo. I&apos;m from Massachusets, USA. I&apos;m a student at the University of Massachusetts Amherst where I&apos;m studying Computer Science.
             </p>
             <p className={styles.textinfo}>
-              I'm really passionate about technology in general. I enjoy creating small scale webpages and applications that I can use in my daily life.
+              I&apos;m really passionate about technology in general. I enjoy creating small scale webpages and applications that I can use in my daily life.
             </p>
             <p className={styles.textinfo}>
               I hope to continue learning new technologies and to gain experience in the tech industry to develop my skills.
@@ -44,7 +44,7 @@ function Home() {
 
         <div>
           <h1 className={styles.portheader}>Portfolio</h1>
-          <p className={styles.portpar}>These are some of the projects I've worked on.</p>
+          <p className={styles.portpar}>These are some of the projects I&apos;ve worked on.</p>
         </div>
       </section>
 
