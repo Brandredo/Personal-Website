@@ -1,5 +1,4 @@
 import styles from "../components/css/Main.module.css";
-import Image from "next/image";
 
 function Home() {
 
