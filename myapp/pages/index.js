@@ -57,7 +57,7 @@ function Home() {
           </div>
           <div className={styles.desc1con}>
             <h1 className={styles.desc1header}>UFit</h1>
-            <p className={styles.desc1}>UFit is a web application for UMass students and staff to post about fit-related content. Share your new bench press achievement or keep up to date about sporting events at UMass. New to fitness? Make a post looking for a gym partner.</p>
+            <p className={styles.desc1}>UFit is a web application for UMass students and staff to post about fitness-related content. Share your new bench press achievement or keep up to date about sporting events at UMass. New to fitness? Make a post looking for a gym partner.</p>
           </div>
         </div>
 
