@@ -7,7 +7,7 @@ function Footer() {
     return (
 
 
-        <footer className={styles.footer}>
+        <footer id="contactid" className={styles.footer}>
             <div className={styles.footercontainer}>
                 <ul className={styles.footerlist}>
                     <li className={styles.item}>

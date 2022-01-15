@@ -1,0 +1,12 @@
+.tagColor {
+  height: max-content;
+  width: max-content;
+  background: #facc15;
+  margin: 0.2rem;
+}
+
+.tagText {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 0.5rem;
+}

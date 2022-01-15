@@ -15,7 +15,6 @@ function Layout({ children, ...customMeta }) {
     return (
 
         <>
-
             <Head>
                 <title>{meta.title}</title>
                 <meta content={meta.description} name="description" />
