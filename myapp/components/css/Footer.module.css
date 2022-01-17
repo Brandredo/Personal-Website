@@ -34,5 +34,16 @@
 
 .endlayout {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+@media (max-width: 400px) {
+  .endlayout {
+    row-gap: 10px;
+  }
+
+  .footertext {
+    align-self: center;
+  }
 }

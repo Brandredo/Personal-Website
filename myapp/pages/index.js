@@ -86,8 +86,11 @@ function Home({ types }) {
             <h1 className={styles.desc2header}>Scourge of the Gods</h1>
             <p className={styles.desc2}>This Player vs Boss game is all about fighting and defeating a boss AI. Use your special abilities to navigate the map and attack the Turtle boss. Watch our for the fire breath!</p>
 
-            <Tag name={types[9]} />
-            <Tag name={types[10]} />
+
+            <div className={styles.tagcon}>
+              <Tag name={types[9]} />
+              <Tag name={types[10]} />
+            </div>
 
           </div>
         </div>
@@ -101,11 +104,15 @@ function Home({ types }) {
             <h1 className={styles.desc3header}>Little Inspirations</h1>
             <p className={styles.desc3}>Little Inspirations is a family-owned daycare business that has been in operation for over 25 years. Offering professional child care, students from Little Inspirations learn and develop rapidly academically and socially.</p>
 
-            <Tag name={types[0]} />
-            <Tag name={types[2]} />
-            <Tag name={types[4]} />
-            <Tag name={types[5]} />
-            <Tag name={types[6]} />
+
+            <div className={styles.tagcon}>
+              <Tag name={types[0]} />
+              <Tag name={types[2]} />
+              <Tag name={types[4]} />
+              <Tag name={types[5]} />
+              <Tag name={types[6]} />
+            </div>
+
           </div>
         </div>
       </section>

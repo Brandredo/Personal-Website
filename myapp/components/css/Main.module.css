@@ -259,6 +259,9 @@
   .portrait {
     margin: auto;
     margin-bottom: 1rem;
+    width: 70%;
+    height: 70%;
+    box-shadow: 5px 5px 5px 1px lightgray;
   }
 
   .adjust {
@@ -276,8 +279,8 @@
 
   .portpar {
     font-size: 0.85rem;
-    margin-bottom: 3rem 3rem;
     padding: 0;
+    text-align: center;
   }
 
   .sec1 {
@@ -309,5 +312,41 @@
   .tagcon {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .sec2 {
+    grid-template-areas:
+      "one"
+      "two";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr;
+  }
+
+  .desc2con {
+    grid-area: one;
+  }
+
+  .demo2 {
+    margin: 1rem auto;
+    grid-area: two;
+    height: max-content;
+  }
+
+  .sec3 {
+    grid-template-areas:
+      "one"
+      "two";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr;
+  }
+
+  .desc3con {
+    grid-area: one;
+  }
+
+  .demo3 {
+    margin: 1rem auto;
+    grid-area: two;
+    height: max-content;
   }
 }

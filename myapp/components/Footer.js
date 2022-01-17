@@ -26,7 +26,7 @@ function Footer() {
 
             <div className={styles.endlayout}>
                 <p className={styles.border}></p>
-                <p className={styles.footertext}>Created by Brandon Figueredo<FaCopyright /></p>
+                <p className={styles.footertext}>Created by Brandon Figueredo</p>
             </div>
 
         </footer>
