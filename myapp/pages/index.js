@@ -5,12 +5,9 @@ import { useEffect } from "react";
 
 function Home({ types }) {
 
-
-
-
   return (
 
-    <>
+    <div className={styles.adjust}>
       <section id="homeid" className={styles.welcome}>
 
         <div className={styles.welcomecontainer}>
@@ -66,10 +63,15 @@ function Home({ types }) {
             <h1 className={styles.desc1header}>UFit</h1>
             <p className={styles.desc1}>UFit is a web application for UMass students and staff to post about fitness-related content. Share your new bench press achievement or keep up to date about sporting events at UMass. New to fitness? Make a post looking for a gym partner.</p>
 
-            <Tag name={types[6]} />
-            <Tag name={types[3]} />
-            <Tag name={types[4]} />
-            <Tag name={types[5]} />
+
+            <div className={styles.tagcon}>
+
+              <Tag name={types[6]} />
+              <Tag name={types[3]} />
+              <Tag name={types[4]} />
+              <Tag name={types[5]} />
+
+            </div>
 
 
           </div>
@@ -107,7 +109,8 @@ function Home({ types }) {
           </div>
         </div>
       </section>
-    </>
+
+    </div>
 
   );
 }

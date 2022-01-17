@@ -7,6 +7,7 @@
     rgba(33, 47, 69, 1) 85%
   );
   min-height: 500px;
+  width: 100vw;
   display: flex;
 }
 
@@ -216,4 +217,97 @@
   font-weight: 300;
   color: #212f45;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 480px) {
+  .welcomecontainer {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .welcomeheader {
+    margin-left: 10vw;
+    font-size: 2rem;
+  }
+
+  .welcomesubheader {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+  }
+
+  .aboutmeheader {
+    font-size: 3rem;
+  }
+
+  .descontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+  }
+
+  .textcontainer {
+    width: 100%;
+  }
+
+  .portrait {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .adjust {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portcontainer {
+    height: 10rem;
+  }
+
+  .portheader {
+    font-size: 3rem;
+  }
+
+  .portpar {
+    font-size: 0.85rem;
+    margin-bottom: 3rem 3rem;
+    padding: 0;
+  }
+
+  .sec1 {
+    grid-template-areas:
+      "one"
+      "two";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr;
+  }
+
+  .desc1con {
+    grid-area: one;
+  }
+
+  .demo1 {
+    margin: 1rem auto;
+    grid-area: two;
+    height: max-content;
+  }
+
+  .item1 > a {
+    font-size: 0.8rem;
+  }
+
+  .item2 > a {
+    font-size: 0.5rem;
+  }
+
+  .tagcon {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
