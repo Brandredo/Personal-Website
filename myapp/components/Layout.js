@@ -24,7 +24,7 @@ function Layout({ children, ...customMeta }) {
             </Head>
 
             <Navbar />
-            <main className="flex-1 flex-col">{children}</main>
+            <main>{children}</main>
             <Footer />
         </>
 

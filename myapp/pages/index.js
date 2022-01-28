@@ -88,7 +88,7 @@ function Home({ types }) {
 
 
             <div className={styles.tagcon}>
-              <Tag name={types[9]} />
+              <Tag name={types[11]} />
               <Tag name={types[10]} />
             </div>
 

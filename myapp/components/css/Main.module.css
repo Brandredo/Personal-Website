@@ -7,7 +7,7 @@
     rgba(33, 47, 69, 1) 85%
   );
   min-height: 500px;
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
 }
 
@@ -350,3 +350,166 @@
     height: max-content;
   }
 }
+
+@media (max-width: 1024px) {
+  .welcome {
+    width: 100%;
+  }
+
+  .welcomecontainer {
+    margin-left: 10vw;
+    padding: 1rem;
+  }
+
+  .welcomeheader {
+    font-size: 2rem;
+  }
+
+  .welcomesubheader {
+    font-size: 0.8rem;
+  }
+
+  .aboutme {
+    display: flex;
+    /* flex-direction: column; */
+    margin: 2rem 5rem;
+    column-gap: 1rem;
+  }
+
+  .aboutmeheadercon {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aboutmeheader {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .descontainer {
+    width: 70%;
+    display: flex;
+  }
+
+  .textcontainer {
+    width: 60%;
+  }
+
+  .textinfo {
+    font-size: 0.9rem;
+  }
+
+  .portrait {
+    aspect-ratio: 0.5;
+    box-shadow: 5px 5px 5px 1px lightgray;
+  }
+
+  .adjust {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portcontainer {
+    height: 10rem;
+  }
+
+  .portheader {
+    font-size: 3rem;
+  }
+
+  .portpar {
+    font-size: 0.85rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  .sec1 {
+    grid-template-areas:
+      "one"
+      "two";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .desc1con {
+    grid-area: one;
+  }
+
+  .demo1 {
+    margin: 1rem auto;
+    grid-area: two;
+    height: max-content;
+  }
+
+  .item1 > a {
+    font-size: 0.8rem;
+  }
+
+  .item2 > a {
+    font-size: 0.5rem;
+  }
+
+  .sec2 {
+    grid-template-areas:
+      "one"
+      "two";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .desc2con {
+    grid-area: one;
+  }
+
+  .demo2 {
+    margin: 1rem auto;
+    grid-area: two;
+    height: max-content;
+  }
+
+  .sec3 {
+    grid-template-areas:
+      "one"
+      "two";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .desc3con {
+    grid-area: one;
+  }
+
+  .demo3 {
+    margin: 1rem auto;
+    grid-area: two;
+    height: max-content;
+  }
+
+  .contactcontainer {
+    margin-top: 0;
+  }
+}
+
+/* @media (min-width: 1200px) {
+  .welcome {
+    padding-left: 10%;
+    width: 100%;
+  }
+
+  .aboutme {
+    margin: 0 20%;
+  }
+
+  .portcontainer {
+    background-color: red !important;
+    height: 30vh;
+  }
+
+  .contactcontainer {
+    margin: 0 25vw;
+  }
+
+  .adjust {
+    margin: 0;
+  }
+} */

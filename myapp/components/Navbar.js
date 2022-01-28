@@ -29,7 +29,7 @@ function Navbar() {
     });
 
     return (
-        <div className="navigation-con w-full">
+        <div>
             <ul className={navColor ? styles.navlist2 : styles.navlist1}>
                 <li className={navColor ? styles.item1 : styles.item2}>
                     <a onClick={() => scrollTo("homeid")}>Home</a>

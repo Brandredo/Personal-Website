@@ -41,6 +41,29 @@
 @media (max-width: 400px) {
   .endlayout {
     row-gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .footertext {
+    align-self: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .endlayout {
+    row-gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .footertext {
+    align-self: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .endlayout {
+    row-gap: 10px;
+    margin-bottom: 2rem;
   }
 
   .footertext {
