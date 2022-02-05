@@ -219,7 +219,7 @@
   margin-bottom: 1rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .welcomecontainer {
     margin: 0;
     padding: 1rem;
@@ -490,7 +490,7 @@
   }
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .welcome {
     padding-left: 10%;
     width: 100%;
@@ -512,4 +512,4 @@
   .adjust {
     margin: 0;
   }
-} */
+}
